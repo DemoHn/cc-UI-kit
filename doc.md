@@ -17,7 +17,7 @@ Revised 1
 由于Polymer框架是在Chrome 34里才完全成熟的，因此这里推荐`v.0.10.0`版本。  
 `node-webkit v0.10.0`下载地址:
 
-* Linux: [32bit](http://dl.node-webkit.org/v0.10.0-rc1/node-webkit-v0.10.0-rc1-linux-ia32.tar.gz) / [64bit] (http://dl.node-webkit.org/v0.10.0-rc1/node-webkit-v0.10.0-rc1-linux-x64.tar.gz)
+* Linux: [32bit](http://dl.node-webkit.org/v0.10.0-rc1/node-webkit-v0.10.0-rc1-linux-ia32.tar.gz) / [64bit](http://dl.node-webkit.org/v0.10.0-rc1/node-webkit-v0.10.0-rc1-linux-x64.tar.gz)
 * Windows: [win32](http://dl.node-webkit.org/v0.10.0-rc1/node-webkit-v0.10.0-rc1-win-ia32.zip)
 * Mac: [32bit, 10.7+](http://dl.node-webkit.org/v0.10.0-rc1/node-webkit-v0.10.0-rc1-osx-ia32.zip)
   
