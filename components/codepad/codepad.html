@@ -1,0 +1,32 @@
+<link rel="import" href="../polymer/polymer.html" />
+<script src="./codemirror/lib/codemirror.js"></script>
+<script src="./codemirror/mode/javascript/javascript.js"></script>
+
+<polymer-element name="code-pad" attributes="mode theme">
+    <template>
+        <style>
+        polyfill-next-selector{content:":host #codepad";}
+
+        #codepad .CodeMirror, #codepad pre{
+            font-family: "Consolas";
+        }
+        </style>
+        <link rel="stylesheet" href="./codemirror/lib/codemirror.css"/>
+        <link rel="stylesheet" href="./codemirror/theme/night.css" id="theme"/>
+        <div id="codepad"></div>
+    </template>
+    <script>
+    var that = this;
+    Polymer('code-pad',{
+        Value:"fff",
+        ready:function(){
+            var cm = CodeMirror(this.$.codepad,{
+                value:this.Value,
+                lineNumbers:true,
+                mode:"text/javascript",
+                theme:this.theme
+            });
+        }
+    });
+    </script>
+</polymer-element>

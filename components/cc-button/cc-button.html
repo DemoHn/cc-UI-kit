@@ -1,0 +1,31 @@
+<link rel="import" href="../polymer/polymer.html">
+<polymer-element name="cc-button" attributes="type size enabled">
+    <template>
+        <style>
+        button{
+            font-size: 16px;
+        }
+        button{
+            font-size:{{size}};
+        }
+        </style>
+        <link rel="stylesheet" href="./button-style.css" />
+        <button class="{{type}} {{enable}}"><content></content></button>
+    </template>
+    <script>
+    Polymer('cc-button',{
+        type:"default",
+        enabled:"enabled",
+        ready:function(){
+            var size = this.size;
+            if(size == "large"){
+                this.size = "24px";
+            }else if(size == "medium"){
+                this.size = "18px";
+            }else if(size == "small"){
+                this.size = "12px";
+            }
+        }
+    });
+    </script>
+</polymer-element>

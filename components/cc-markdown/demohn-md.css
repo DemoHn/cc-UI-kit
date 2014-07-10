@@ -1,0 +1,84 @@
+.demohn-md-style{
+    /*word break*/
+    word-break:break-all;
+    word-wrap:break-word;
+
+    /*padding*/
+    padding-left: 3%;
+    padding-right: 3%;
+
+    /*font*/
+    font-family: "Droid Sans","Microsoft YaHei","Microsoft YZhengHei","DejaVu Sans Mono","Arial";
+    font-size: 15px;
+    margin-top:0;
+    margin-bottom:0.4em;
+
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.demohn-md-style h1{
+    font-size: 2.47em;
+    margin:inherit;
+}
+
+.demohn-md-style h2{
+    font-size: 2.0em;
+    margin:inherit;    
+}
+
+.demohn-md-style h3{
+    font-size: 1.6em;
+    margin:inherit;    
+}
+
+.demohn-md-style h4{
+    font-size: 1.3em;
+    margin:inherit;    
+}
+
+.demohn-md-style h5{
+    font-size: 1.15em;
+    margin:inherit;    
+}
+
+.demohn-md-style h6{
+    font-size: 1em;
+    font-weight: normal;
+    margin:inherit;    
+}
+
+.demohn-md-style p,span{
+    font-size: 1em;
+    margin: 0.6em;
+}
+
+/*multi line code style*/
+.demohn-md-style code{
+    font-family: "Consolas","Microsoft YaHei";
+    background-color: #def;
+
+    padding-left:2px;
+    margin-left: 5px;
+    padding-right:2px;    
+    margin-right: 5px;    
+}
+
+.demohn-md-style pre code{
+    font-family: "Consolas","Microsoft YaHei";
+    background-color: #dfe;
+    display: block;
+    color:darkblue;
+    padding:10px;
+}
+
+.demohn-md-style a{
+    text-decoration: none;
+    -webkit-transition:400ms;
+}
+
+.demohn-md-style a:hover{
+    color:darkblue;
+    text-shadow:1px 1px 2px #aaa;
+};
+

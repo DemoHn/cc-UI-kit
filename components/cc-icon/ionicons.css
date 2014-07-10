@@ -1,0 +1,1224 @@
+/*!
+  Ionicons, v1.5.2
+  Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
+  https://twitter.com/benjsperry  https://twitter.com/ionicframework
+  MIT License: https://github.com/driftyco/ionicons
+*/
+
+.ion, .loading-a, .loading-b, .loading-c, .loading-d, .looping, .refreshing, .ios7-reloading, .ionicons, .alert:before, .alert-circled:before, .android-add:before, .android-add-contact:before, .android-alarm:before, .android-archive:before, .android-arrow-back:before, .android-arrow-down-left:before, .android-arrow-down-right:before, .android-arrow-forward:before, .android-arrow-up-left:before, .android-arrow-up-right:before, .android-battery:before, .android-book:before, .android-calendar:before, .android-call:before, .android-camera:before, .android-chat:before, .android-checkmark:before, .android-clock:before, .android-close:before, .android-contact:before, .android-contacts:before, .android-data:before, .android-developer:before, .android-display:before, .android-download:before, .android-drawer:before, .android-dropdown:before, .android-earth:before, .android-folder:before, .android-forums:before, .android-friends:before, .android-hand:before, .android-image:before, .android-inbox:before, .android-information:before, .android-keypad:before, .android-lightbulb:before, .android-locate:before, .android-location:before, .android-mail:before, .android-microphone:before, .android-mixer:before, .android-more:before, .android-note:before, .android-playstore:before, .android-printer:before, .android-promotion:before, .android-reminder:before, .android-remove:before, .android-search:before, .android-send:before, .android-settings:before, .android-share:before, .android-social:before, .android-social-user:before, .android-sort:before, .android-stair-drawer:before, .android-star:before, .android-stopwatch:before, .android-storage:before, .android-system-back:before, .android-system-home:before, .android-system-windows:before, .android-timer:before, .android-trash:before, .android-user-menu:before, .android-volume:before, .android-wifi:before, .aperture:before, .archive:before, .arrow-down-a:before, .arrow-down-b:before, .arrow-down-c:before, .arrow-expand:before, .arrow-graph-down-left:before, .arrow-graph-down-right:before, .arrow-graph-up-left:before, .arrow-graph-up-right:before, .arrow-left-a:before, .arrow-left-b:before, .arrow-left-c:before, .arrow-move:before, .arrow-resize:before, .arrow-return-left:before, .arrow-return-right:before, .arrow-right-a:before, .arrow-right-b:before, .arrow-right-c:before, .arrow-shrink:before, .arrow-swap:before, .arrow-up-a:before, .arrow-up-b:before, .arrow-up-c:before, .asterisk:before, .at:before, .bag:before, .battery-charging:before, .battery-empty:before, .battery-full:before, .battery-half:before, .battery-low:before, .beaker:before, .beer:before, .bluetooth:before, .bonfire:before, .bookmark:before, .briefcase:before, .bug:before, .calculator:before, .calendar:before, .camera:before, .card:before, .cash:before, .chatbox:before, .chatbox-working:before, .chatboxes:before, .chatbubble:before, .chatbubble-working:before, .chatbubbles:before, .checkmark:before, .checkmark-circled:before, .checkmark-round:before, .chevron-down:before, .chevron-left:before, .chevron-right:before, .chevron-up:before, .clipboard:before, .clock:before, .close:before, .close-circled:before, .close-round:before, .closed-captioning:before, .cloud:before, .code:before, .code-download:before, .code-working:before, .coffee:before, .compass:before, .compose:before, .connection-bars:before, .contrast:before, .cube:before, .disc:before, .document:before, .document-text:before, .drag:before, .earth:before, .edit:before, .egg:before, .eject:before, .email:before, .eye:before, .eye-disabled:before, .female:before, .filing:before, .film-marker:before, .fireball:before, .flag:before, .flame:before, .flash:before, .flash-off:before, .flask:before, .folder:before, .fork:before, .fork-repo:before, .forward:before, .funnel:before, .game-controller-a:before, .game-controller-b:before, .gear-a:before, .gear-b:before, .grid:before, .hammer:before, .happy:before, .headphone:before, .heart:before, .heart-broken:before, .help:before, .help-buoy:before, .help-circled:before, .home:before, .icecream:before, .icon-social-google-plus:before, .icon-social-google-plus-outline:before, .image:before, .images:before, .information:before, .information-circled:before, .ionic:before, .ios7-alarm:before, .ios7-alarm-outline:before, .ios7-albums:before, .ios7-albums-outline:before, .ios7-americanfootball:before, .ios7-americanfootball-outline:before, .ios7-analytics:before, .ios7-analytics-outline:before, .ios7-arrow-back:before, .ios7-arrow-down:before, .ios7-arrow-forward:before, .ios7-arrow-left:before, .ios7-arrow-right:before, .ios7-arrow-thin-down:before, .ios7-arrow-thin-left:before, .ios7-arrow-thin-right:before, .ios7-arrow-thin-up:before, .ios7-arrow-up:before, .ios7-at:before, .ios7-at-outline:before, .ios7-barcode:before, .ios7-barcode-outline:before, .ios7-baseball:before, .ios7-baseball-outline:before, .ios7-basketball:before, .ios7-basketball-outline:before, .ios7-bell:before, .ios7-bell-outline:before, .ios7-bolt:before, .ios7-bolt-outline:before, .ios7-bookmarks:before, .ios7-bookmarks-outline:before, .ios7-box:before, .ios7-box-outline:before, .ios7-briefcase:before, .ios7-briefcase-outline:before, .ios7-browsers:before, .ios7-browsers-outline:before, .ios7-calculator:before, .ios7-calculator-outline:before, .ios7-calendar:before, .ios7-calendar-outline:before, .ios7-camera:before, .ios7-camera-outline:before, .ios7-cart:before, .ios7-cart-outline:before, .ios7-chatboxes:before, .ios7-chatboxes-outline:before, .ios7-chatbubble:before, .ios7-chatbubble-outline:before, .ios7-checkmark:before, .ios7-checkmark-empty:before, .ios7-checkmark-outline:before, .ios7-circle-filled:before, .ios7-circle-outline:before, .ios7-clock:before, .ios7-clock-outline:before, .ios7-close:before, .ios7-close-empty:before, .ios7-close-outline:before, .ios7-cloud:before, .ios7-cloud-download:before, .ios7-cloud-download-outline:before, .ios7-cloud-outline:before, .ios7-cloud-upload:before, .ios7-cloud-upload-outline:before, .ios7-cloudy:before, .ios7-cloudy-night:before, .ios7-cloudy-night-outline:before, .ios7-cloudy-outline:before, .ios7-cog:before, .ios7-cog-outline:before, .ios7-compose:before, .ios7-compose-outline:before, .ios7-contact:before, .ios7-contact-outline:before, .ios7-copy:before, .ios7-copy-outline:before, .ios7-download:before, .ios7-download-outline:before, .ios7-drag:before, .ios7-email:before, .ios7-email-outline:before, .ios7-expand:before, .ios7-eye:before, .ios7-eye-outline:before, .ios7-fastforward:before, .ios7-fastforward-outline:before, .ios7-filing:before, .ios7-filing-outline:before, .ios7-film:before, .ios7-film-outline:before, .ios7-flag:before, .ios7-flag-outline:before, .ios7-folder:before, .ios7-folder-outline:before, .ios7-football:before, .ios7-football-outline:before, .ios7-gear:before, .ios7-gear-outline:before, .ios7-glasses:before, .ios7-glasses-outline:before, .ios7-heart:before, .ios7-heart-outline:before, .ios7-help:before, .ios7-help-empty:before, .ios7-help-outline:before, .ios7-home:before, .ios7-home-outline:before, .ios7-infinite:before, .ios7-infinite-outline:before, .ios7-information:before, .ios7-information-empty:before, .ios7-information-outline:before, .ios7-ionic-outline:before, .ios7-keypad:before, .ios7-keypad-outline:before, .ios7-lightbulb:before, .ios7-lightbulb-outline:before, .ios7-location:before, .ios7-location-outline:before, .ios7-locked:before, .ios7-locked-outline:before, .ios7-loop:before, .ios7-loop-strong:before, .ios7-medkit:before, .ios7-medkit-outline:before, .ios7-mic:before, .ios7-mic-off:before, .ios7-mic-outline:before, .ios7-minus:before, .ios7-minus-empty:before, .ios7-minus-outline:before, .ios7-monitor:before, .ios7-monitor-outline:before, .ios7-moon:before, .ios7-moon-outline:before, .ios7-more:before, .ios7-more-outline:before, .ios7-musical-note:before, .ios7-musical-notes:before, .ios7-navigate:before, .ios7-navigate-outline:before, .ios7-paper:before, .ios7-paper-outline:before, .ios7-paperplane:before, .ios7-paperplane-outline:before, .ios7-partlysunny:before, .ios7-partlysunny-outline:before, .ios7-pause:before, .ios7-pause-outline:before, .ios7-paw:before, .ios7-paw-outline:before, .ios7-people:before, .ios7-people-outline:before, .ios7-person:before, .ios7-person-outline:before, .ios7-personadd:before, .ios7-personadd-outline:before, .ios7-photos:before, .ios7-photos-outline:before, .ios7-pie:before, .ios7-pie-outline:before, .ios7-play:before, .ios7-play-outline:before, .ios7-plus:before, .ios7-plus-empty:before, .ios7-plus-outline:before, .ios7-pricetag:before, .ios7-pricetag-outline:before, .ios7-pricetags:before, .ios7-pricetags-outline:before, .ios7-printer:before, .ios7-printer-outline:before, .ios7-pulse:before, .ios7-pulse-strong:before, .ios7-rainy:before, .ios7-rainy-outline:before, .ios7-recording:before, .ios7-recording-outline:before, .ios7-redo:before, .ios7-redo-outline:before, .ios7-refresh:before, .ios7-refresh-empty:before, .ios7-refresh-outline:before, .ios7-reload:before, .ios7-reloading:before, .ios7-reverse-camera:before, .ios7-reverse-camera-outline:before, .ios7-rewind:before, .ios7-rewind-outline:before, .ios7-search:before, .ios7-search-strong:before, .ios7-settings:before, .ios7-settings-strong:before, .ios7-shrink:before, .ios7-skipbackward:before, .ios7-skipbackward-outline:before, .ios7-skipforward:before, .ios7-skipforward-outline:before, .ios7-snowy:before, .ios7-speedometer:before, .ios7-speedometer-outline:before, .ios7-star:before, .ios7-star-half:before, .ios7-star-outline:before, .ios7-stopwatch:before, .ios7-stopwatch-outline:before, .ios7-sunny:before, .ios7-sunny-outline:before, .ios7-telephone:before, .ios7-telephone-outline:before, .ios7-tennisball:before, .ios7-tennisball-outline:before, .ios7-thunderstorm:before, .ios7-thunderstorm-outline:before, .ios7-time:before, .ios7-time-outline:before, .ios7-timer:before, .ios7-timer-outline:before, .ios7-toggle:before, .ios7-toggle-outline:before, .ios7-trash:before, .ios7-trash-outline:before, .ios7-undo:before, .ios7-undo-outline:before, .ios7-unlocked:before, .ios7-unlocked-outline:before, .ios7-upload:before, .ios7-upload-outline:before, .ios7-videocam:before, .ios7-videocam-outline:before, .ios7-volume-high:before, .ios7-volume-low:before, .ios7-wineglass:before, .ios7-wineglass-outline:before, .ios7-world:before, .ios7-world-outline:before, .ipad:before, .iphone:before, .ipod:before, .jet:before, .key:before, .knife:before, .laptop:before, .leaf:before, .levels:before, .lightbulb:before, .link:before, .load-a:before, .loading-a:before, .load-b:before, .loading-b:before, .load-c:before, .loading-c:before, .load-d:before, .loading-d:before, .location:before, .locked:before, .log-in:before, .log-out:before, .loop:before, .looping:before, .magnet:before, .male:before, .man:before, .map:before, .medkit:before, .merge:before, .mic-a:before, .mic-b:before, .mic-c:before, .minus:before, .minus-circled:before, .minus-round:before, .model-s:before, .monitor:before, .more:before, .mouse:before, .music-note:before, .navicon:before, .navicon-round:before, .navigate:before, .network:before, .no-smoking:before, .nuclear:before, .outlet:before, .paper-airplane:before, .paperclip:before, .pause:before, .person:before, .person-add:before, .person-stalker:before, .pie-graph:before, .pin:before, .pinpoint:before, .pizza:before, .plane:before, .planet:before, .play:before, .playstation:before, .plus:before, .plus-circled:before, .plus-round:before, .podium:before, .pound:before, .power:before, .pricetag:before, .pricetags:before, .printer:before, .pull-request:before, .qr-scanner:before, .quote:before, .radio-waves:before, .record:before, .refresh:before, .refreshing:before, .reply:before, .reply-all:before, .ribbon-a:before, .ribbon-b:before, .sad:before, .scissors:before, .search:before, .settings:before, .share:before, .shuffle:before, .skip-backward:before, .skip-forward:before, .social-android:before, .social-android-outline:before, .social-apple:before, .social-apple-outline:before, .social-bitcoin:before, .social-bitcoin-outline:before, .social-buffer:before, .social-buffer-outline:before, .social-designernews:before, .social-designernews-outline:before, .social-dribbble:before, .social-dribbble-outline:before, .social-dropbox:before, .social-dropbox-outline:before, .social-facebook:before, .social-facebook-outline:before, .social-foursquare:before, .social-foursquare-outline:before, .social-freebsd-devil:before, .social-github:before, .social-github-outline:before, .social-google:before, .social-google-outline:before, .social-googleplus:before, .social-googleplus-outline:before, .social-hackernews:before, .social-hackernews-outline:before, .social-instagram:before, .social-instagram-outline:before, .social-linkedin:before, .social-linkedin-outline:before, .social-pinterest:before, .social-pinterest-outline:before, .social-reddit:before, .social-reddit-outline:before, .social-rss:before, .social-rss-outline:before, .social-skype:before, .social-skype-outline:before, .social-tumblr:before, .social-tumblr-outline:before, .social-tux:before, .social-twitter:before, .social-twitter-outline:before, .social-usd:before, .social-usd-outline:before, .social-vimeo:before, .social-vimeo-outline:before, .social-windows:before, .social-windows-outline:before, .social-wordpress:before, .social-wordpress-outline:before, .social-yahoo:before, .social-yahoo-outline:before, .social-youtube:before, .social-youtube-outline:before, .speakerphone:before, .speedometer:before, .spoon:before, .star:before, .stats-bars:before, .steam:before, .stop:before, .thermometer:before, .thumbsdown:before, .thumbsup:before, .toggle:before, .toggle-filled:before, .trash-a:before, .trash-b:before, .trophy:before, .umbrella:before, .university:before, .unlocked:before, .upload:before, .usb:before, .videocamera:before, .volume-high:before, .volume-low:before, .volume-medium:before, .volume-mute:before, .wand:before, .waterdrop:before, .wifi:before, .wineglass:before, .woman:before, .wrench:before, .xbox:before { display: inline-block; font-family: "Ionicons"; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; text-rendering: auto; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.spin, .loading-a, .loading-b, .loading-c, .loading-d, .looping, .refreshing, .ios7-reloading { -webkit-animation: spin 1s infinite linear; -moz-animation: spin 1s infinite linear; -o-animation: spin 1s infinite linear; animation: spin 1s infinite linear; }
+
+@-moz-keyframes spin { 0% { -moz-transform: rotate(0deg); }
+  100% { -moz-transform: rotate(359deg); } }
+@-webkit-keyframes spin { 0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(359deg); } }
+@-o-keyframes spin { 0% { -o-transform: rotate(0deg); }
+  100% { -o-transform: rotate(359deg); } }
+@-ms-keyframes spin { 0% { -ms-transform: rotate(0deg); }
+  100% { -ms-transform: rotate(359deg); } }
+@keyframes spin { 0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); } }
+.loading-a: { -webkit-animation-timing-function: steps(8, start); -moz-animation-timing-function: steps(8, start); animation-timing-function: steps(8, start); }
+
+.alert:before { content: "\f101"; }
+
+.alert-circled:before { content: "\f100"; }
+
+.android-add:before { content: "\f2c7"; }
+
+.android-add-contact:before { content: "\f2c6"; }
+
+.android-alarm:before { content: "\f2c8"; }
+
+.android-archive:before { content: "\f2c9"; }
+
+.android-arrow-back:before { content: "\f2ca"; }
+
+.android-arrow-down-left:before { content: "\f2cb"; }
+
+.android-arrow-down-right:before { content: "\f2cc"; }
+
+.android-arrow-forward:before { content: "\f30f"; }
+
+.android-arrow-up-left:before { content: "\f2cd"; }
+
+.android-arrow-up-right:before { content: "\f2ce"; }
+
+.android-battery:before { content: "\f2cf"; }
+
+.android-book:before { content: "\f2d0"; }
+
+.android-calendar:before { content: "\f2d1"; }
+
+.android-call:before { content: "\f2d2"; }
+
+.android-camera:before { content: "\f2d3"; }
+
+.android-chat:before { content: "\f2d4"; }
+
+.android-checkmark:before { content: "\f2d5"; }
+
+.android-clock:before { content: "\f2d6"; }
+
+.android-close:before { content: "\f2d7"; }
+
+.android-contact:before { content: "\f2d8"; }
+
+.android-contacts:before { content: "\f2d9"; }
+
+.android-data:before { content: "\f2da"; }
+
+.android-developer:before { content: "\f2db"; }
+
+.android-display:before { content: "\f2dc"; }
+
+.android-download:before { content: "\f2dd"; }
+
+.android-drawer:before { content: "\f310"; }
+
+.android-dropdown:before { content: "\f2de"; }
+
+.android-earth:before { content: "\f2df"; }
+
+.android-folder:before { content: "\f2e0"; }
+
+.android-forums:before { content: "\f2e1"; }
+
+.android-friends:before { content: "\f2e2"; }
+
+.android-hand:before { content: "\f2e3"; }
+
+.android-image:before { content: "\f2e4"; }
+
+.android-inbox:before { content: "\f2e5"; }
+
+.android-information:before { content: "\f2e6"; }
+
+.android-keypad:before { content: "\f2e7"; }
+
+.android-lightbulb:before { content: "\f2e8"; }
+
+.android-locate:before { content: "\f2e9"; }
+
+.android-location:before { content: "\f2ea"; }
+
+.android-mail:before { content: "\f2eb"; }
+
+.android-microphone:before { content: "\f2ec"; }
+
+.android-mixer:before { content: "\f2ed"; }
+
+.android-more:before { content: "\f2ee"; }
+
+.android-note:before { content: "\f2ef"; }
+
+.android-playstore:before { content: "\f2f0"; }
+
+.android-printer:before { content: "\f2f1"; }
+
+.android-promotion:before { content: "\f2f2"; }
+
+.android-reminder:before { content: "\f2f3"; }
+
+.android-remove:before { content: "\f2f4"; }
+
+.android-search:before { content: "\f2f5"; }
+
+.android-send:before { content: "\f2f6"; }
+
+.android-settings:before { content: "\f2f7"; }
+
+.android-share:before { content: "\f2f8"; }
+
+.android-social:before { content: "\f2fa"; }
+
+.android-social-user:before { content: "\f2f9"; }
+
+.android-sort:before { content: "\f2fb"; }
+
+.android-stair-drawer:before { content: "\f311"; }
+
+.android-star:before { content: "\f2fc"; }
+
+.android-stopwatch:before { content: "\f2fd"; }
+
+.android-storage:before { content: "\f2fe"; }
+
+.android-system-back:before { content: "\f2ff"; }
+
+.android-system-home:before { content: "\f300"; }
+
+.android-system-windows:before { content: "\f301"; }
+
+.android-timer:before { content: "\f302"; }
+
+.android-trash:before { content: "\f303"; }
+
+.android-user-menu:before { content: "\f312"; }
+
+.android-volume:before { content: "\f304"; }
+
+.android-wifi:before { content: "\f305"; }
+
+.aperture:before { content: "\f313"; }
+
+.archive:before { content: "\f102"; }
+
+.arrow-down-a:before { content: "\f103"; }
+
+.arrow-down-b:before { content: "\f104"; }
+
+.arrow-down-c:before { content: "\f105"; }
+
+.arrow-expand:before { content: "\f25e"; }
+
+.arrow-graph-down-left:before { content: "\f25f"; }
+
+.arrow-graph-down-right:before { content: "\f260"; }
+
+.arrow-graph-up-left:before { content: "\f261"; }
+
+.arrow-graph-up-right:before { content: "\f262"; }
+
+.arrow-left-a:before { content: "\f106"; }
+
+.arrow-left-b:before { content: "\f107"; }
+
+.arrow-left-c:before { content: "\f108"; }
+
+.arrow-move:before { content: "\f263"; }
+
+.arrow-resize:before { content: "\f264"; }
+
+.arrow-return-left:before { content: "\f265"; }
+
+.arrow-return-right:before { content: "\f266"; }
+
+.arrow-right-a:before { content: "\f109"; }
+
+.arrow-right-b:before { content: "\f10a"; }
+
+.arrow-right-c:before { content: "\f10b"; }
+
+.arrow-shrink:before { content: "\f267"; }
+
+.arrow-swap:before { content: "\f268"; }
+
+.arrow-up-a:before { content: "\f10c"; }
+
+.arrow-up-b:before { content: "\f10d"; }
+
+.arrow-up-c:before { content: "\f10e"; }
+
+.asterisk:before { content: "\f314"; }
+
+.at:before { content: "\f10f"; }
+
+.bag:before { content: "\f110"; }
+
+.battery-charging:before { content: "\f111"; }
+
+.battery-empty:before { content: "\f112"; }
+
+.battery-full:before { content: "\f113"; }
+
+.battery-half:before { content: "\f114"; }
+
+.battery-low:before { content: "\f115"; }
+
+.beaker:before { content: "\f269"; }
+
+.beer:before { content: "\f26a"; }
+
+.bluetooth:before { content: "\f116"; }
+
+.bonfire:before { content: "\f315"; }
+
+.bookmark:before { content: "\f26b"; }
+
+.briefcase:before { content: "\f26c"; }
+
+.bug:before { content: "\f2be"; }
+
+.calculator:before { content: "\f26d"; }
+
+.calendar:before { content: "\f117"; }
+
+.camera:before { content: "\f118"; }
+
+.card:before { content: "\f119"; }
+
+.cash:before { content: "\f316"; }
+
+.chatbox:before { content: "\f11b"; }
+
+.chatbox-working:before { content: "\f11a"; }
+
+.chatboxes:before { content: "\f11c"; }
+
+.chatbubble:before { content: "\f11e"; }
+
+.chatbubble-working:before { content: "\f11d"; }
+
+.chatbubbles:before { content: "\f11f"; }
+
+.checkmark:before { content: "\f122"; }
+
+.checkmark-circled:before { content: "\f120"; }
+
+.checkmark-round:before { content: "\f121"; }
+
+.chevron-down:before { content: "\f123"; }
+
+.chevron-left:before { content: "\f124"; }
+
+.chevron-right:before { content: "\f125"; }
+
+.chevron-up:before { content: "\f126"; }
+
+.clipboard:before { content: "\f127"; }
+
+.clock:before { content: "\f26e"; }
+
+.close:before { content: "\f12a"; }
+
+.close-circled:before { content: "\f128"; }
+
+.close-round:before { content: "\f129"; }
+
+.closed-captioning:before { content: "\f317"; }
+
+.cloud:before { content: "\f12b"; }
+
+.code:before { content: "\f271"; }
+
+.code-download:before { content: "\f26f"; }
+
+.code-working:before { content: "\f270"; }
+
+.coffee:before { content: "\f272"; }
+
+.compass:before { content: "\f273"; }
+
+.compose:before { content: "\f12c"; }
+
+.connection-bars:before { content: "\f274"; }
+
+.contrast:before { content: "\f275"; }
+
+.cube:before { content: "\f318"; }
+
+.disc:before { content: "\f12d"; }
+
+.document:before { content: "\f12f"; }
+
+.document-text:before { content: "\f12e"; }
+
+.drag:before { content: "\f130"; }
+
+.earth:before { content: "\f276"; }
+
+.edit:before { content: "\f2bf"; }
+
+.egg:before { content: "\f277"; }
+
+.eject:before { content: "\f131"; }
+
+.email:before { content: "\f132"; }
+
+.eye:before { content: "\f133"; }
+
+.eye-disabled:before { content: "\f306"; }
+
+.female:before { content: "\f278"; }
+
+.filing:before { content: "\f134"; }
+
+.film-marker:before { content: "\f135"; }
+
+.fireball:before { content: "\f319"; }
+
+.flag:before { content: "\f279"; }
+
+.flame:before { content: "\f31a"; }
+
+.flash:before { content: "\f137"; }
+
+.flash-off:before { content: "\f136"; }
+
+.flask:before { content: "\f138"; }
+
+.folder:before { content: "\f139"; }
+
+.fork:before { content: "\f27a"; }
+
+.fork-repo:before { content: "\f2c0"; }
+
+.forward:before { content: "\f13a"; }
+
+.funnel:before { content: "\f31b"; }
+
+.game-controller-a:before { content: "\f13b"; }
+
+.game-controller-b:before { content: "\f13c"; }
+
+.gear-a:before { content: "\f13d"; }
+
+.gear-b:before { content: "\f13e"; }
+
+.grid:before { content: "\f13f"; }
+
+.hammer:before { content: "\f27b"; }
+
+.happy:before { content: "\f31c"; }
+
+.headphone:before { content: "\f140"; }
+
+.heart:before { content: "\f141"; }
+
+.heart-broken:before { content: "\f31d"; }
+
+.help:before { content: "\f143"; }
+
+.help-buoy:before { content: "\f27c"; }
+
+.help-circled:before { content: "\f142"; }
+
+.home:before { content: "\f144"; }
+
+.icecream:before { content: "\f27d"; }
+
+.icon-social-google-plus:before { content: "\f146"; }
+
+.icon-social-google-plus-outline:before { content: "\f145"; }
+
+.image:before { content: "\f147"; }
+
+.images:before { content: "\f148"; }
+
+.information:before { content: "\f14a"; }
+
+.information-circled:before { content: "\f149"; }
+
+.ionic:before { content: "\f14b"; }
+
+.ios7-alarm:before { content: "\f14d"; }
+
+.ios7-alarm-outline:before { content: "\f14c"; }
+
+.ios7-albums:before { content: "\f14f"; }
+
+.ios7-albums-outline:before { content: "\f14e"; }
+
+.ios7-americanfootball:before { content: "\f31f"; }
+
+.ios7-americanfootball-outline:before { content: "\f31e"; }
+
+.ios7-analytics:before { content: "\f321"; }
+
+.ios7-analytics-outline:before { content: "\f320"; }
+
+.ios7-arrow-back:before { content: "\f150"; }
+
+.ios7-arrow-down:before { content: "\f151"; }
+
+.ios7-arrow-forward:before { content: "\f152"; }
+
+.ios7-arrow-left:before { content: "\f153"; }
+
+.ios7-arrow-right:before { content: "\f154"; }
+
+.ios7-arrow-thin-down:before { content: "\f27e"; }
+
+.ios7-arrow-thin-left:before { content: "\f27f"; }
+
+.ios7-arrow-thin-right:before { content: "\f280"; }
+
+.ios7-arrow-thin-up:before { content: "\f281"; }
+
+.ios7-arrow-up:before { content: "\f155"; }
+
+.ios7-at:before { content: "\f157"; }
+
+.ios7-at-outline:before { content: "\f156"; }
+
+.ios7-barcode:before { content: "\f323"; }
+
+.ios7-barcode-outline:before { content: "\f322"; }
+
+.ios7-baseball:before { content: "\f325"; }
+
+.ios7-baseball-outline:before { content: "\f324"; }
+
+.ios7-basketball:before { content: "\f327"; }
+
+.ios7-basketball-outline:before { content: "\f326"; }
+
+.ios7-bell:before { content: "\f159"; }
+
+.ios7-bell-outline:before { content: "\f158"; }
+
+.ios7-bolt:before { content: "\f15b"; }
+
+.ios7-bolt-outline:before { content: "\f15a"; }
+
+.ios7-bookmarks:before { content: "\f15d"; }
+
+.ios7-bookmarks-outline:before { content: "\f15c"; }
+
+.ios7-box:before { content: "\f15f"; }
+
+.ios7-box-outline:before { content: "\f15e"; }
+
+.ios7-briefcase:before { content: "\f283"; }
+
+.ios7-briefcase-outline:before { content: "\f282"; }
+
+.ios7-browsers:before { content: "\f161"; }
+
+.ios7-browsers-outline:before { content: "\f160"; }
+
+.ios7-calculator:before { content: "\f285"; }
+
+.ios7-calculator-outline:before { content: "\f284"; }
+
+.ios7-calendar:before { content: "\f163"; }
+
+.ios7-calendar-outline:before { content: "\f162"; }
+
+.ios7-camera:before { content: "\f165"; }
+
+.ios7-camera-outline:before { content: "\f164"; }
+
+.ios7-cart:before { content: "\f167"; }
+
+.ios7-cart-outline:before { content: "\f166"; }
+
+.ios7-chatboxes:before { content: "\f169"; }
+
+.ios7-chatboxes-outline:before { content: "\f168"; }
+
+.ios7-chatbubble:before { content: "\f16b"; }
+
+.ios7-chatbubble-outline:before { content: "\f16a"; }
+
+.ios7-checkmark:before { content: "\f16e"; }
+
+.ios7-checkmark-empty:before { content: "\f16c"; }
+
+.ios7-checkmark-outline:before { content: "\f16d"; }
+
+.ios7-circle-filled:before { content: "\f16f"; }
+
+.ios7-circle-outline:before { content: "\f170"; }
+
+.ios7-clock:before { content: "\f172"; }
+
+.ios7-clock-outline:before { content: "\f171"; }
+
+.ios7-close:before { content: "\f2bc"; }
+
+.ios7-close-empty:before { content: "\f2bd"; }
+
+.ios7-close-outline:before { content: "\f2bb"; }
+
+.ios7-cloud:before { content: "\f178"; }
+
+.ios7-cloud-download:before { content: "\f174"; }
+
+.ios7-cloud-download-outline:before { content: "\f173"; }
+
+.ios7-cloud-outline:before { content: "\f175"; }
+
+.ios7-cloud-upload:before { content: "\f177"; }
+
+.ios7-cloud-upload-outline:before { content: "\f176"; }
+
+.ios7-cloudy:before { content: "\f17a"; }
+
+.ios7-cloudy-night:before { content: "\f308"; }
+
+.ios7-cloudy-night-outline:before { content: "\f307"; }
+
+.ios7-cloudy-outline:before { content: "\f179"; }
+
+.ios7-cog:before { content: "\f17c"; }
+
+.ios7-cog-outline:before { content: "\f17b"; }
+
+.ios7-compose:before { content: "\f17e"; }
+
+.ios7-compose-outline:before { content: "\f17d"; }
+
+.ios7-contact:before { content: "\f180"; }
+
+.ios7-contact-outline:before { content: "\f17f"; }
+
+.ios7-copy:before { content: "\f182"; }
+
+.ios7-copy-outline:before { content: "\f181"; }
+
+.ios7-download:before { content: "\f184"; }
+
+.ios7-download-outline:before { content: "\f183"; }
+
+.ios7-drag:before { content: "\f185"; }
+
+.ios7-email:before { content: "\f187"; }
+
+.ios7-email-outline:before { content: "\f186"; }
+
+.ios7-expand:before { content: "\f30d"; }
+
+.ios7-eye:before { content: "\f189"; }
+
+.ios7-eye-outline:before { content: "\f188"; }
+
+.ios7-fastforward:before { content: "\f18b"; }
+
+.ios7-fastforward-outline:before { content: "\f18a"; }
+
+.ios7-filing:before { content: "\f18d"; }
+
+.ios7-filing-outline:before { content: "\f18c"; }
+
+.ios7-film:before { content: "\f18f"; }
+
+.ios7-film-outline:before { content: "\f18e"; }
+
+.ios7-flag:before { content: "\f191"; }
+
+.ios7-flag-outline:before { content: "\f190"; }
+
+.ios7-folder:before { content: "\f193"; }
+
+.ios7-folder-outline:before { content: "\f192"; }
+
+.ios7-football:before { content: "\f329"; }
+
+.ios7-football-outline:before { content: "\f328"; }
+
+.ios7-gear:before { content: "\f195"; }
+
+.ios7-gear-outline:before { content: "\f194"; }
+
+.ios7-glasses:before { content: "\f197"; }
+
+.ios7-glasses-outline:before { content: "\f196"; }
+
+.ios7-heart:before { content: "\f199"; }
+
+.ios7-heart-outline:before { content: "\f198"; }
+
+.ios7-help:before { content: "\f19c"; }
+
+.ios7-help-empty:before { content: "\f19a"; }
+
+.ios7-help-outline:before { content: "\f19b"; }
+
+.ios7-home:before { content: "\f32b"; }
+
+.ios7-home-outline:before { content: "\f32a"; }
+
+.ios7-infinite:before { content: "\f19e"; }
+
+.ios7-infinite-outline:before { content: "\f19d"; }
+
+.ios7-information:before { content: "\f1a1"; }
+
+.ios7-information-empty:before { content: "\f19f"; }
+
+.ios7-information-outline:before { content: "\f1a0"; }
+
+.ios7-ionic-outline:before { content: "\f1a2"; }
+
+.ios7-keypad:before { content: "\f1a4"; }
+
+.ios7-keypad-outline:before { content: "\f1a3"; }
+
+.ios7-lightbulb:before { content: "\f287"; }
+
+.ios7-lightbulb-outline:before { content: "\f286"; }
+
+.ios7-location:before { content: "\f1a6"; }
+
+.ios7-location-outline:before { content: "\f1a5"; }
+
+.ios7-locked:before { content: "\f1a8"; }
+
+.ios7-locked-outline:before { content: "\f1a7"; }
+
+.ios7-loop:before { content: "\f32d"; }
+
+.ios7-loop-strong:before { content: "\f32c"; }
+
+.ios7-medkit:before { content: "\f289"; }
+
+.ios7-medkit-outline:before { content: "\f288"; }
+
+.ios7-mic:before { content: "\f1ab"; }
+
+.ios7-mic-off:before { content: "\f1a9"; }
+
+.ios7-mic-outline:before { content: "\f1aa"; }
+
+.ios7-minus:before { content: "\f1ae"; }
+
+.ios7-minus-empty:before { content: "\f1ac"; }
+
+.ios7-minus-outline:before { content: "\f1ad"; }
+
+.ios7-monitor:before { content: "\f1b0"; }
+
+.ios7-monitor-outline:before { content: "\f1af"; }
+
+.ios7-moon:before { content: "\f1b2"; }
+
+.ios7-moon-outline:before { content: "\f1b1"; }
+
+.ios7-more:before { content: "\f1b4"; }
+
+.ios7-more-outline:before { content: "\f1b3"; }
+
+.ios7-musical-note:before { content: "\f1b5"; }
+
+.ios7-musical-notes:before { content: "\f1b6"; }
+
+.ios7-navigate:before { content: "\f1b8"; }
+
+.ios7-navigate-outline:before { content: "\f1b7"; }
+
+.ios7-paper:before { content: "\f32f"; }
+
+.ios7-paper-outline:before { content: "\f32e"; }
+
+.ios7-paperplane:before { content: "\f1ba"; }
+
+.ios7-paperplane-outline:before { content: "\f1b9"; }
+
+.ios7-partlysunny:before { content: "\f1bc"; }
+
+.ios7-partlysunny-outline:before { content: "\f1bb"; }
+
+.ios7-pause:before { content: "\f1be"; }
+
+.ios7-pause-outline:before { content: "\f1bd"; }
+
+.ios7-paw:before { content: "\f331"; }
+
+.ios7-paw-outline:before { content: "\f330"; }
+
+.ios7-people:before { content: "\f1c0"; }
+
+.ios7-people-outline:before { content: "\f1bf"; }
+
+.ios7-person:before { content: "\f1c2"; }
+
+.ios7-person-outline:before { content: "\f1c1"; }
+
+.ios7-personadd:before { content: "\f1c4"; }
+
+.ios7-personadd-outline:before { content: "\f1c3"; }
+
+.ios7-photos:before { content: "\f1c6"; }
+
+.ios7-photos-outline:before { content: "\f1c5"; }
+
+.ios7-pie:before { content: "\f28b"; }
+
+.ios7-pie-outline:before { content: "\f28a"; }
+
+.ios7-play:before { content: "\f1c8"; }
+
+.ios7-play-outline:before { content: "\f1c7"; }
+
+.ios7-plus:before { content: "\f1cb"; }
+
+.ios7-plus-empty:before { content: "\f1c9"; }
+
+.ios7-plus-outline:before { content: "\f1ca"; }
+
+.ios7-pricetag:before { content: "\f28d"; }
+
+.ios7-pricetag-outline:before { content: "\f28c"; }
+
+.ios7-pricetags:before { content: "\f333"; }
+
+.ios7-pricetags-outline:before { content: "\f332"; }
+
+.ios7-printer:before { content: "\f1cd"; }
+
+.ios7-printer-outline:before { content: "\f1cc"; }
+
+.ios7-pulse:before { content: "\f335"; }
+
+.ios7-pulse-strong:before { content: "\f334"; }
+
+.ios7-rainy:before { content: "\f1cf"; }
+
+.ios7-rainy-outline:before { content: "\f1ce"; }
+
+.ios7-recording:before { content: "\f1d1"; }
+
+.ios7-recording-outline:before { content: "\f1d0"; }
+
+.ios7-redo:before { content: "\f1d3"; }
+
+.ios7-redo-outline:before { content: "\f1d2"; }
+
+.ios7-refresh:before { content: "\f1d6"; }
+
+.ios7-refresh-empty:before { content: "\f1d4"; }
+
+.ios7-refresh-outline:before { content: "\f1d5"; }
+
+.ios7-reload:before, .ios7-reloading:before { content: "\f28e"; }
+
+.ios7-reverse-camera:before { content: "\f337"; }
+
+.ios7-reverse-camera-outline:before { content: "\f336"; }
+
+.ios7-rewind:before { content: "\f1d8"; }
+
+.ios7-rewind-outline:before { content: "\f1d7"; }
+
+.ios7-search:before { content: "\f1da"; }
+
+.ios7-search-strong:before { content: "\f1d9"; }
+
+.ios7-settings:before { content: "\f339"; }
+
+.ios7-settings-strong:before { content: "\f338"; }
+
+.ios7-shrink:before { content: "\f30e"; }
+
+.ios7-skipbackward:before { content: "\f1dc"; }
+
+.ios7-skipbackward-outline:before { content: "\f1db"; }
+
+.ios7-skipforward:before { content: "\f1de"; }
+
+.ios7-skipforward-outline:before { content: "\f1dd"; }
+
+.ios7-snowy:before { content: "\f309"; }
+
+.ios7-speedometer:before { content: "\f290"; }
+
+.ios7-speedometer-outline:before { content: "\f28f"; }
+
+.ios7-star:before { content: "\f1e0"; }
+
+.ios7-star-half:before { content: "\f33a"; }
+
+.ios7-star-outline:before { content: "\f1df"; }
+
+.ios7-stopwatch:before { content: "\f1e2"; }
+
+.ios7-stopwatch-outline:before { content: "\f1e1"; }
+
+.ios7-sunny:before { content: "\f1e4"; }
+
+.ios7-sunny-outline:before { content: "\f1e3"; }
+
+.ios7-telephone:before { content: "\f1e6"; }
+
+.ios7-telephone-outline:before { content: "\f1e5"; }
+
+.ios7-tennisball:before { content: "\f33c"; }
+
+.ios7-tennisball-outline:before { content: "\f33b"; }
+
+.ios7-thunderstorm:before { content: "\f1e8"; }
+
+.ios7-thunderstorm-outline:before { content: "\f1e7"; }
+
+.ios7-time:before { content: "\f292"; }
+
+.ios7-time-outline:before { content: "\f291"; }
+
+.ios7-timer:before { content: "\f1ea"; }
+
+.ios7-timer-outline:before { content: "\f1e9"; }
+
+.ios7-toggle:before { content: "\f33e"; }
+
+.ios7-toggle-outline:before { content: "\f33d"; }
+
+.ios7-trash:before { content: "\f1ec"; }
+
+.ios7-trash-outline:before { content: "\f1eb"; }
+
+.ios7-undo:before { content: "\f1ee"; }
+
+.ios7-undo-outline:before { content: "\f1ed"; }
+
+.ios7-unlocked:before { content: "\f1f0"; }
+
+.ios7-unlocked-outline:before { content: "\f1ef"; }
+
+.ios7-upload:before { content: "\f1f2"; }
+
+.ios7-upload-outline:before { content: "\f1f1"; }
+
+.ios7-videocam:before { content: "\f1f4"; }
+
+.ios7-videocam-outline:before { content: "\f1f3"; }
+
+.ios7-volume-high:before { content: "\f1f5"; }
+
+.ios7-volume-low:before { content: "\f1f6"; }
+
+.ios7-wineglass:before { content: "\f294"; }
+
+.ios7-wineglass-outline:before { content: "\f293"; }
+
+.ios7-world:before { content: "\f1f8"; }
+
+.ios7-world-outline:before { content: "\f1f7"; }
+
+.ipad:before { content: "\f1f9"; }
+
+.iphone:before { content: "\f1fa"; }
+
+.ipod:before { content: "\f1fb"; }
+
+.jet:before { content: "\f295"; }
+
+.key:before { content: "\f296"; }
+
+.knife:before { content: "\f297"; }
+
+.laptop:before { content: "\f1fc"; }
+
+.leaf:before { content: "\f1fd"; }
+
+.levels:before { content: "\f298"; }
+
+.lightbulb:before { content: "\f299"; }
+
+.link:before { content: "\f1fe"; }
+
+.load-a:before, .loading-a:before { content: "\f29a"; }
+
+.load-b:before, .loading-b:before { content: "\f29b"; }
+
+.load-c:before, .loading-c:before { content: "\f29c"; }
+
+.load-d:before, .loading-d:before { content: "\f29d"; }
+
+.location:before { content: "\f1ff"; }
+
+.locked:before { content: "\f200"; }
+
+.log-in:before { content: "\f29e"; }
+
+.log-out:before { content: "\f29f"; }
+
+.loop:before, .looping:before { content: "\f201"; }
+
+.magnet:before { content: "\f2a0"; }
+
+.male:before { content: "\f2a1"; }
+
+.man:before { content: "\f202"; }
+
+.map:before { content: "\f203"; }
+
+.medkit:before { content: "\f2a2"; }
+
+.merge:before { content: "\f33f"; }
+
+.mic-a:before { content: "\f204"; }
+
+.mic-b:before { content: "\f205"; }
+
+.mic-c:before { content: "\f206"; }
+
+.minus:before { content: "\f209"; }
+
+.minus-circled:before { content: "\f207"; }
+
+.minus-round:before { content: "\f208"; }
+
+.model-s:before { content: "\f2c1"; }
+
+.monitor:before { content: "\f20a"; }
+
+.more:before { content: "\f20b"; }
+
+.mouse:before { content: "\f340"; }
+
+.music-note:before { content: "\f20c"; }
+
+.navicon:before { content: "\f20e"; }
+
+.navicon-round:before { content: "\f20d"; }
+
+.navigate:before { content: "\f2a3"; }
+
+.network:before { content: "\f341"; }
+
+.no-smoking:before { content: "\f2c2"; }
+
+.nuclear:before { content: "\f2a4"; }
+
+.outlet:before { content: "\f342"; }
+
+.paper-airplane:before { content: "\f2c3"; }
+
+.paperclip:before { content: "\f20f"; }
+
+.pause:before { content: "\f210"; }
+
+.person:before { content: "\f213"; }
+
+.person-add:before { content: "\f211"; }
+
+.person-stalker:before { content: "\f212"; }
+
+.pie-graph:before { content: "\f2a5"; }
+
+.pin:before { content: "\f2a6"; }
+
+.pinpoint:before { content: "\f2a7"; }
+
+.pizza:before { content: "\f2a8"; }
+
+.plane:before { content: "\f214"; }
+
+.planet:before { content: "\f343"; }
+
+.play:before { content: "\f215"; }
+
+.playstation:before { content: "\f30a"; }
+
+.plus:before { content: "\f218"; }
+
+.plus-circled:before { content: "\f216"; }
+
+.plus-round:before { content: "\f217"; }
+
+.podium:before { content: "\f344"; }
+
+.pound:before { content: "\f219"; }
+
+.power:before { content: "\f2a9"; }
+
+.pricetag:before { content: "\f2aa"; }
+
+.pricetags:before { content: "\f2ab"; }
+
+.printer:before { content: "\f21a"; }
+
+.pull-request:before { content: "\f345"; }
+
+.qr-scanner:before { content: "\f346"; }
+
+.quote:before { content: "\f347"; }
+
+.radio-waves:before { content: "\f2ac"; }
+
+.record:before { content: "\f21b"; }
+
+.refresh:before, .refreshing:before { content: "\f21c"; }
+
+.reply:before { content: "\f21e"; }
+
+.reply-all:before { content: "\f21d"; }
+
+.ribbon-a:before { content: "\f348"; }
+
+.ribbon-b:before { content: "\f349"; }
+
+.sad:before { content: "\f34a"; }
+
+.scissors:before { content: "\f34b"; }
+
+.search:before { content: "\f21f"; }
+
+.settings:before { content: "\f2ad"; }
+
+.share:before { content: "\f220"; }
+
+.shuffle:before { content: "\f221"; }
+
+.skip-backward:before { content: "\f222"; }
+
+.skip-forward:before { content: "\f223"; }
+
+.social-android:before { content: "\f225"; }
+
+.social-android-outline:before { content: "\f224"; }
+
+.social-apple:before { content: "\f227"; }
+
+.social-apple-outline:before { content: "\f226"; }
+
+.social-bitcoin:before { content: "\f2af"; }
+
+.social-bitcoin-outline:before { content: "\f2ae"; }
+
+.social-buffer:before { content: "\f229"; }
+
+.social-buffer-outline:before { content: "\f228"; }
+
+.social-designernews:before { content: "\f22b"; }
+
+.social-designernews-outline:before { content: "\f22a"; }
+
+.social-dribbble:before { content: "\f22d"; }
+
+.social-dribbble-outline:before { content: "\f22c"; }
+
+.social-dropbox:before { content: "\f22f"; }
+
+.social-dropbox-outline:before { content: "\f22e"; }
+
+.social-facebook:before { content: "\f231"; }
+
+.social-facebook-outline:before { content: "\f230"; }
+
+.social-foursquare:before { content: "\f34d"; }
+
+.social-foursquare-outline:before { content: "\f34c"; }
+
+.social-freebsd-devil:before { content: "\f2c4"; }
+
+.social-github:before { content: "\f233"; }
+
+.social-github-outline:before { content: "\f232"; }
+
+.social-google:before { content: "\f34f"; }
+
+.social-google-outline:before { content: "\f34e"; }
+
+.social-googleplus:before { content: "\f235"; }
+
+.social-googleplus-outline:before { content: "\f234"; }
+
+.social-hackernews:before { content: "\f237"; }
+
+.social-hackernews-outline:before { content: "\f236"; }
+
+.social-instagram:before { content: "\f351"; }
+
+.social-instagram-outline:before { content: "\f350"; }
+
+.social-linkedin:before { content: "\f239"; }
+
+.social-linkedin-outline:before { content: "\f238"; }
+
+.social-pinterest:before { content: "\f2b1"; }
+
+.social-pinterest-outline:before { content: "\f2b0"; }
+
+.social-reddit:before { content: "\f23b"; }
+
+.social-reddit-outline:before { content: "\f23a"; }
+
+.social-rss:before { content: "\f23d"; }
+
+.social-rss-outline:before { content: "\f23c"; }
+
+.social-skype:before { content: "\f23f"; }
+
+.social-skype-outline:before { content: "\f23e"; }
+
+.social-tumblr:before { content: "\f241"; }
+
+.social-tumblr-outline:before { content: "\f240"; }
+
+.social-tux:before { content: "\f2c5"; }
+
+.social-twitter:before { content: "\f243"; }
+
+.social-twitter-outline:before { content: "\f242"; }
+
+.social-usd:before { content: "\f353"; }
+
+.social-usd-outline:before { content: "\f352"; }
+
+.social-vimeo:before { content: "\f245"; }
+
+.social-vimeo-outline:before { content: "\f244"; }
+
+.social-windows:before { content: "\f247"; }
+
+.social-windows-outline:before { content: "\f246"; }
+
+.social-wordpress:before { content: "\f249"; }
+
+.social-wordpress-outline:before { content: "\f248"; }
+
+.social-yahoo:before { content: "\f24b"; }
+
+.social-yahoo-outline:before { content: "\f24a"; }
+
+.social-youtube:before { content: "\f24d"; }
+
+.social-youtube-outline:before { content: "\f24c"; }
+
+.speakerphone:before { content: "\f2b2"; }
+
+.speedometer:before { content: "\f2b3"; }
+
+.spoon:before { content: "\f2b4"; }
+
+.star:before { content: "\f24e"; }
+
+.stats-bars:before { content: "\f2b5"; }
+
+.steam:before { content: "\f30b"; }
+
+.stop:before { content: "\f24f"; }
+
+.thermometer:before { content: "\f2b6"; }
+
+.thumbsdown:before { content: "\f250"; }
+
+.thumbsup:before { content: "\f251"; }
+
+.toggle:before { content: "\f355"; }
+
+.toggle-filled:before { content: "\f354"; }
+
+.trash-a:before { content: "\f252"; }
+
+.trash-b:before { content: "\f253"; }
+
+.trophy:before { content: "\f356"; }
+
+.umbrella:before { content: "\f2b7"; }
+
+.university:before { content: "\f357"; }
+
+.unlocked:before { content: "\f254"; }
+
+.upload:before { content: "\f255"; }
+
+.usb:before { content: "\f2b8"; }
+
+.videocamera:before { content: "\f256"; }
+
+.volume-high:before { content: "\f257"; }
+
+.volume-low:before { content: "\f258"; }
+
+.volume-medium:before { content: "\f259"; }
+
+.volume-mute:before { content: "\f25a"; }
+
+.wand:before { content: "\f358"; }
+
+.waterdrop:before { content: "\f25b"; }
+
+.wifi:before { content: "\f25c"; }
+
+.wineglass:before { content: "\f2b9"; }
+
+.woman:before { content: "\f25d"; }
+
+.wrench:before { content: "\f2ba"; }
+
+.xbox:before { content: "\f30c"; }

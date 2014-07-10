@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    font-size: 16px;
+    font-family: "Consolas","Microsoft YaHei";
+}
+div.left{
+    height: 100%;
+    position: fixed;
+    width:25%;
+    float:left;
+    box-sizing:border-box;
+}
+
+div.document{
+    float:left;
+    width:75%;
+    margin-left:25%;
+    border-left:blue 1px solid;    
+    position: relative;
+    height:100%;
+    box-sizing:border-box;
+}
+
+div.item{
+    height:2.4em;
+    line-height: 2.4em;
+    color: black;
+    background-color: white;
+    padding-left:10px;
+}
+
+div.title{
+    height:50px;
+    font-size:25px;
+    color: #124;
+    line-height:50px;
+    text-align:center; 
+}
+div.item:hover{
+    background-color: blue;
+    color:white;
+    cursor:pointer;
+}

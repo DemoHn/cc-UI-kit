@@ -1,0 +1,29 @@
+{
+  "name": "cc-ui-kit",
+  "version": "0.0.0",
+  "description": "Just an Editor",
+  "main": "__doc__/app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Editor",
+    "demo"
+  ],
+  "window": {
+    "title": "lele-editor",
+    "toolbar": true,
+    "frame": true,
+    "fullscreen": false,
+    "show_in_taskbar": true,
+    "height": 600,
+    "width": 800,
+    "resizable": true,
+    "position": "mouse"
+    },
+  "author": "DemoHn",
+  "license": "MIT",
+  "webkit": {
+    "plugin": true
+  }
+}

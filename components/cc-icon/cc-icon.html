@@ -1,0 +1,43 @@
+<link rel="import" href="../polymer/polymer.html">
+<style>
+@font-face { font-family: "Ionicons"; src: url("./ionicons.svg?v=1.5.2#Ionicons") format("svg"); font-weight: normal; font-style: normal; }
+</style>
+<polymer-element name='cc-icon' attributes="color name size">
+<template>
+    <style>
+    /*default*/
+    i{
+        color: black;
+        font-size: 16px;
+    }
+
+    :host{
+        color:black;
+        font-size: 16px;
+        cursor:default;
+    }
+
+    :host i{
+        color:{{color}};
+        font-size:1em;
+        font-size:1.15em;
+    }
+
+    :host{
+        margin-top:-0.1em;
+        color:{{color}};
+        font-size: {{size}};
+        line-height:1em;
+    };
+    </style>
+<link rel="stylesheet" href="./ionicons.css">
+<i class="{{name}}" id="a"></i>
+<content></content>
+</template>
+<script>
+    Polymer('cc-icon',{
+        ready:function(){
+        }
+    });
+</script>
+</polymer-element>

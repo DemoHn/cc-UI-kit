@@ -1,0 +1,82 @@
+<link rel="import" href="../polymer/polymer.html">
+<script src="./markdown.js"></script>
+<script src="./highlight.pack.js"></script>
+<polymer-element name="cc-markdown" attributes="allow_html file">
+    <template>
+        <link rel="stylesheet" href="./demohn-md.css" />   
+        <link rel="stylesheet" href="./github.css">     
+        <style>
+        :host{
+            display: block;
+            height:inherit;
+        };
+
+        </style>
+        <div class="demohn-md-style" id="dest" style="height:100%;"></div>
+        <pre id="src" style="display:none;"><content></content></pre>
+    </template>
+    <script>
+
+    var fs = require("fs");
+    var os = require("os");
+
+    Polymer('cc-markdown',{
+      allow_html:false,
+      ready:function(){
+        var dest = this.$.dest;
+        var src  = this;
+        //if file directory is denoted
+        if(this.file){
+          var that = this;
+          fs.readFile(this.file,{encoding:"utf-8"},function(err,data){
+            if(err){
+              // throw error
+            }else{
+              if(that.allow_html){
+                var dt  = markdown.toHTML(data);  
+                var dc = convertSpecialChars(dt);       
+                dest.innerHTML = dc;
+
+                var codes = dest.getElementsByTagName("code");
+                for(var j=0;j<codes.length;j++){
+                  codes[j].innerHTML = toEntity(codes[j].innerHTML);
+                }
+
+              }else{
+                var dt  = markdown.toHTML(data);
+                dest.innerHTML = dt;
+              }
+            }
+          });
+      }else{
+        var ds = markdown.toHTML(src.innerHTML);
+        dest.innerHTML = replaceSpaceToBR(ds);
+      }
+
+    // replace EOL (like "\n" in linux or "\r\n" in windows) to the HTML line-break tag <br>
+    function replaceSpaceToBR(content){
+      //var SpaceReg = new RegExp(os.EOL,"g");
+      return content;
+    }
+
+    function convertSpecialChars(content){        
+       content = content.replace(/&gt;/g,'>');
+       content = content.replace(/&lt;/g,'<');
+       content = content.replace(/&quot;/g,'"');
+       content = content.replace(/&amp;/g,'&');       
+       content = content.replace(/&apos;/g,'\'');       
+       return content;
+    }
+    // trans to entity
+    function toEntity(content){
+       content = content.replace(/>/g,'&gt;');
+       content = content.replace(/</g,'&lt;');
+       content = content.replace(/"/g,'&quot;');    
+       content = content.replace(/'/g,'&apos;');                   
+       return content;
+    }
+
+  }
+  });
+    </script>
+</polymer-element>
