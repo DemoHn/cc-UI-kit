@@ -1,6 +1,6 @@
 <link rel="import" href="../polymer/polymer.html">
 
-<polymer-element name="cc-input" attributes="text placeholder password">
+<polymer-element name="cc-input" attributes="text placeholder password height size">
 
     <template>
         <style>
@@ -15,7 +15,7 @@
             outline: none;
             -webkit-transition: 200ms;
             box-sizing: border-box;
-
+            line-height: 1.5em;
             width:inherit;
             color:inherit;
             font-family: inherit;
@@ -25,6 +25,10 @@
             margin-bottom:5px;
         }
 
+        input[type=text], input[type=password]{
+            height:{{height}};
+            font-size: {{size}};
+        }
         input[type=text]:hover, input[type=password]:hover {
             box-shadow: #888 1px 1px 6px;
             box-sizing: border-box;

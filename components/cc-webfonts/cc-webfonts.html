@@ -1,6 +1,14 @@
 <link rel="import" href="../polymer/polymer.html">
 <link rel="stylesheet" href="font-style.css" />
-<polymer-element name="cc-webfonts">
+<polymer-element name="cc-webfonts" attributes="font">
+<template>
+    <style>
+    :host{
+        font-family: "{{font}}";
+    }
+    </style>
+    <content></content>
+</template>
 <script>
     Polymer('cc-webfonts',{});
 </script>

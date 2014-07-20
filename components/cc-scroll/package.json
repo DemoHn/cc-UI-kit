@@ -1,0 +1,19 @@
+{
+    "main": "test.html",
+    "name": "MusicPlayer",
+    "description": "An APP created by `cnt` ",
+    "version": "0.1.0",
+    "keywords": [],
+    "window": {
+        "title": "MusicPlayer",
+        "toolbar": true,
+        "frame": true,
+        "width": 800,
+        "height": 500,
+        "position": "mouse",
+        "min_width": 400,
+        "min_height": 200,
+        "resizable": true,
+        "transparent":true
+    }
+}
