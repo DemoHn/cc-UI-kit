@@ -25,4 +25,4 @@ _version_ __1__
 __source:__   
 `<cc-mask id="mask" status="1">Bangalore is the IT city in India.</cc-mask>`  
 __result:__   
-<cc-mask id="mask" status="1">Bangalore is the IT city in India.</cc-mask>
+<cc-mask id="mask" status="1">Bangalore is the IT city in India.Yes</cc-mask>
