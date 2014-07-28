@@ -1,7 +1,7 @@
 button{
     box-shadow: #aaa 1px 1px 3px;
-    padding-left:5px;
-    padding-right:5px;
+    padding-left:8px;
+    padding-right:8px;
     outline: none;
     border:none;
     border-left: rgba(160,160,160,0.4) 1px solid;    
@@ -12,6 +12,7 @@ button{
     cursor:default;
     border-radius:2px;
     display: inline-block;
+    font-family:"Consolas","Droid Sans","Microsoft YaHei","Microsoft YZhengHei","DejaVu Sans Mono","WenQuanYi MicroHei";
 }
 
 button:hover{

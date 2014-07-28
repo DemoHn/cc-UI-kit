@@ -476,15 +476,15 @@ __optional:__ `size`,`color`
 <span class='half'><cc-icon size="18px" name="levels">`levels`</cc-icon></span><br>
 <span class='half'><cc-icon size="18px" name="lightbulb">`lightbulb`</cc-icon></span><br>
 <span class='half'><cc-icon size="18px" name="link">`link`</cc-icon></span><br>
-<span class='half'><cc-icon size="18px" name="load-a:before, .loading-a">`load-a:before, .loading-a`</cc-icon></span><br>
-<span class='half'><cc-icon size="18px" name="load-b:before, .loading-b">`load-b:before, .loading-b`</cc-icon></span><br>
-<span class='half'><cc-icon size="18px" name="load-c:before, .loading-c">`load-c:before, .loading-c`</cc-icon></span><br>
-<span class='half'><cc-icon size="18px" name="load-d:before, .loading-d">`load-d:before, .loading-d`</cc-icon></span><br>
+<span class='half'><cc-icon size="18px" name="loading-a">`loading-a`</cc-icon></span><br>
+<span class='half'><cc-icon size="18px" name="loading-b">`loading-b`</cc-icon></span><br>
+<span class='half'><cc-icon size="18px" name="loading-c">`loading-c`</cc-icon></span><br>
+<span class='half'><cc-icon size="18px" name="loading-d">`loading-d`</cc-icon></span><br>
 <span class='half'><cc-icon size="18px" name="location">`location`</cc-icon></span><br>
 <span class='half'><cc-icon size="18px" name="locked">`locked`</cc-icon></span><br>
 <span class='half'><cc-icon size="18px" name="log-in">`log-in`</cc-icon></span><br>
 <span class='half'><cc-icon size="18px" name="log-out">`log-out`</cc-icon></span><br>
-<span class='half'><cc-icon size="18px" name="loop:before, .looping">`loop:before, .looping`</cc-icon></span><br>
+<span class='half'><cc-icon size="18px" name="looping">`looping`</cc-icon></span><br>
 <span class='half'><cc-icon size="18px" name="magnet">`magnet`</cc-icon></span><br>
 <span class='half'><cc-icon size="18px" name="male">`male`</cc-icon></span><br>
 <span class='half'><cc-icon size="18px" name="man">`man`</cc-icon></span><br>
