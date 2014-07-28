@@ -1,0 +1,50 @@
+/*add on style*/
+#test{
+    width:350px;
+}
+.ui-autocomplete{
+    z-index: 9999;
+    
+    .ui-input{
+        display:block;
+        height:3em;
+        width:100%;
+    }
+    div.ui-label{
+        position:relative;
+        z-index: 10000;
+        width:100%;
+        margin:0;
+        display:none;
+        background-color: #fff;
+        border : 1px #000 solid;
+        overflow:hidden;
+
+        dl.ui-item{
+            height:1.5em;
+            margin-top:0;
+            margin-bottom:0;            
+            &:hover{
+                background-color:blue;
+                color:white;
+            }
+        }
+
+        dl.ui-not-found{
+            height:1.5em;
+            margin-top:0;
+            margin-bottom:0;
+            color:#111;
+            text-decoration:underline;
+        }
+    }
+}
+
+.clearfix:after{
+    display:block;
+    visiblity:hidden;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+}

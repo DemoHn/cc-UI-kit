@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>AutoComplete Test</title>
+        <script src="jquery-1.9.1.min.js"></script>
+        <script src="autocomplete.js"></script>
+        <link href="autocomplete.css" rel="stylesheet"/>
+    </head>
+    <body>
+    <div id="test">
+      <input id="fff" type="text" name="" value=""/>
+    </div>
+    <p>hhh</p>
+    <p>hhh</p>
+    <p>hhh</p>
+    
+    </body>
+    <script>
+      var auto = new AutoComplete($("#test")[0],$("#fff")[0]);
+      var a = [];
+      for(var i = 0; i<= 10000 ; i++){
+                         a.push(i);
+                         }
+                         auto.appendDL(a);
+    </script>
+</html>
